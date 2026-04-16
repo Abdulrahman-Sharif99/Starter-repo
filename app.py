@@ -6,16 +6,11 @@ from dash import Dash, dcc, html, Input, Output
 # ── palette ──────────────────────────────────────────────────────────────────
 PINK      = "#E8547A"
 PINK_DARK = "#C23860"
-
-DARK_BG   = "#12121A"
-DARK_CARD = "#1E1E2F"
-DARK_SOFT = "#2A2A3D"
-
-TEXT_MAIN = "#F5F5F7"
-TEXT_MUTED= "#A0A0B5"
-
-CARD_BG   = "#FFFFFF"   # keep graph card white
-BORDER    = "#2A2A3D"
+CREAM     = "#FFF8F5"
+CHARCOAL  = "#1C1C2E"
+MUTED     = "#6B6B8A"
+CARD_BG   = "#FFFFFF"
+BORDER    = "#F0E8EC"
 
 app = Dash(__name__)
 
